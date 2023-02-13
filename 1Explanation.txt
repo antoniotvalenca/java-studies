@@ -1,0 +1,27 @@
+JAVA BASICS
+
+-> Java é uma linguagem INTERPRETADA e COMPILADA (codigo java -> transforma em bytecode -> bytecode é executad pela JAVA VIRTUAL MACHINE)
+-> Baixar extensão "java extension pack for java"
+
+-> Obrigatório uso de ; ao fim de cada linha/bloco de código
+-> Case sensitive (sensibilidade à capslock)
+-> o nome dos files (e, por consequencia, das classes) devem ser NesteFormatoSempre
+-> Todos os códigos Java são escritos dentro de uma "class":
+
+        public class nomeDaClasse {
+            codigo
+        }
+
+-> O nome dessa classe principal deve ter o mesmo nome do file sempre
+-> public (ou protected e private) diz respeito a acessibilidade desta classe, isto é, se ela é acessível por outras classes da aplicação, apenas às classes filhas ou
+à nenhuma classe
+-> se não tiver outras classes fora a class nomeDaClasse o "public" não faz muita diferença
+
+________________________________________________________________________________________________________________________
+
+JAVA BASICS 2
+
+-> Dentro da classe, invocamos o método "main" (basta digitar main que o próprio VSCODE mostra a estrutura)
+-> O main() é o entry point, é onde começa a rodar o código
+
+-> Em suma, o class deve conter todo o código, enquanto o main() é apenas o entry point

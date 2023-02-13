@@ -1,0 +1,101 @@
+DATATYPES
+
+int -> número inteiro  ............. int apples = 6;
+long -> número inteiro grande ...... long population = 80000000;
+double -> número decimal ........... double price = 5.99;
+String -> texto .................... String greeting = "Hello";
+char -> charactere ................. char grade = 'A';''
+
+[ obs (diferença int e long) => int vai de - 2 bilhoes até + 2 bilhoes, long abrange a casa dos quintilhoes ]''
+
+-> podemos atualizar variaveis
+    ex:
+        int bananasQuantidade = 4;
+        bananasQuantidade += 1; // agora é 5 o valor
+
+________________________________________________________________________________________________________________________
+
+STRINGS
+
+-> Strings em java ocupam bastante espaço, isso porquê eles são alocados na memória no formato de objeto
+
+    ex:
+            String name = "Antonio";
+                -> vai ser salvo na memória:
+                    name: "Antonio" {
+                        coder: 0,
+                        hash: 0,
+                        hashIsZero: false }
+
+-> Concatenação de String:
+
+    int valorAleatorio = 6;
+    String concatenacao = "eu tenho " + valorAleatorio + " anos";
+
+CHAR
+
+-> Sempre aloca a mesma quantidade de bytes
+-> O char cumpre a mesma função que String, teoricamente, mas aloca muito menos espaço na memoria
+-> Elas sempre são declaradas com aspas única
+    ex:
+            char grade = 'A';
+
+________________________________________________________________________________________________________________________
+
+LONG
+
+-> Aloca números grandes
+-> ao final do número, declaramos a letra L
+    ex:
+            long worldPopulation = 8000000000L;
+
+DOUBLE
+
+-> Aloca números com casas decimais
+-> Separamos as casas com ponto
+    ex:
+            double percentage = 45.3
+
+OBS: Para operações matemáticas, evitar usar o DATATYPE INT, já que, muito provavelmente, eles resultarão em números com casas decimais (no caso de operações mais complexas)
+    -> o java, portando, cortaria as casas decimais
+
+    ex:
+        int wallet = 20;
+        int people = 3;
+
+        System.out.println(20/3); -> vai logar 6 ao invés de 6.66
+
+        double wallet2 = 20;
+        double people2 = 3;
+
+        System.out.println(20/3); -> vai logar 5.5
+
+________________________________________________________________________________________________________________________
+
+TYPE CASTING DE VARIÁVEIS
+
+-> Não faz sentido fazermos operações matemáticas com números inteiros e associarmos eles ao datatype double, apesar da necessidade
+-> por isso, podemos avisar ao Java, durante a linha de código da operação, para tornar aquele inteiro em double durante aquele momento específico do cálculo
+-> (int)numeroDouble -> torna um double em int durante aquela operação
+-> (double)numeroInt -> torna um int em double durante aquela operação
+
+    ex:
+            int cakeSlices = 10;
+            int people = 3;
+
+            double slicePerPeople = ( (double)cakeSlices / people )
+________________________________________________________________________________________________________________________
+
+OPERADORES
+
+=   atribuiçao ao valor de variavel
+==  igualdade
++   soma
+-   subtração
+*   multiplicação
+/   divisão
+%   módulo (resto da divisão)
+++  acresce 1
+--  decresce 1
++=  soma o valor da variável com o valor seguinte
+-=  subtrai o valor da variável com o valor seguinte

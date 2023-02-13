@@ -1,0 +1,15 @@
+MAC e WINDOWS 
+
+[1] javac ArquivoJava.java
+    -> Estou mandando o compilador Java compilar para Bytecode o código java de tal file
+    -> é criado um arquivo ArquivoJava.class
+[2] java ArquivoJava
+    -> vai rodar o código compilado
+    -> só se chama pelo nome do arquivo, sem extensão .java ou .class
+
+[RESUMO]
+    -> <javac ArquivoJava.java> *compila*
+    -> <java ArquivoJava> *roda o codigo compilado*
+    -> usar o botão Run já faz isso por trás dos panos, mas é bom se sentir confortável de usar comandos do terminal
+
+________________________________________________________________________________________________________________________

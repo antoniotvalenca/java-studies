@@ -1,0 +1,12 @@
+BASIC
+
+public class teste {
+    public static void main(String[] args) {
+    }
+}
+
+________________________________________________________________________________________________________________________
+
+STRING
+
+- System.out.println("Hello World"); => print no console
