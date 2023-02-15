@@ -99,3 +99,35 @@ OPERADORES
 --  decresce 1
 +=  soma o valor da variável com o valor seguinte
 -=  subtrai o valor da variável com o valor seguinte
+
+________________________________________________________________________________________________________________________
+
+SCANNER
+
+-> é a "entidade" do javascript capaz de receber input do usuário
+-> o scanner possui vários métodos capazes de tratar o input do usuário
+
+1) Importamos a entidade Scanner
+    -> import java.util.Scanner; (topo do código)
+2) Declaramos o Scanner dentro de uma varíável na funçao main
+    -> Scanner scanner = new Scanner(System.in)
+    
+3) Agora usamos os métodos (abaixo) do Scanner para absorver input dos users
+nextInt() ->        scanneia números inteiros
+nextDouble() ->    scanneia números decimais
+nextLine() ->       scanneia texto
+
+4) Por último, após o uso do scanner, é necessário encerrá-lo
+    -> scanner.close();
+EX:
+  
+        System.out.println(x: "Whats your name");
+        String name = scanner.nextLine();
+
+        System.out.println(x: "How old are you");
+        int age = scanner.nextInt();
+
+        scanner.close();
+
+OBS: No scanner do java, se você vive numa região onde se usa "," para separar casas decimais, o input também deve ter "," (o programa interpretará como "." da mesma
+maneira)
