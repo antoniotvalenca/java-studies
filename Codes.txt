@@ -10,3 +10,15 @@ ________________________________________________________________________________
 STRING
 
 - System.out.println("Hello World"); => print no console
+
+
+SCANNER
+
+- import java.util.Scanner; => importa o Scanner
+
+- Scanner scanner = new Scanner(System.in) => cria uma instância do scanner
+
+- scanner.nextInt()     =>  recebe input de um integer
+- scanner.nextDouble()  =>  recebe input de um numero com casas decimais
+- scanner nextLine()    =>  recebe input de um texto
+
