@@ -1,0 +1,27 @@
+IF STATEMENT
+
+-> igual ao de outras linguagens
+-> if (condição) { *codigo* } // apenas o if
+
+-> if (condiçao) {            // if e o seu default 
+  } else {
+  }
+  
+-> if (condição){             // if, outro if e, por fim, seu default
+   } else if (condição) {
+   } else {
+   }
+   
+________________________________________________________________________________________________________________________
+
+SWITCH - CASE (BREAK) - DEFAULT
+
+-> compara uma variavel com uma lista de possíveis valores que podem ser atribuidos a ela
+-> ex:
+      switch (month) {
+        case 1: System.out.println("january"); break;
+        case 2: System.out.println("february"); break;
+        case 3: System.out.println("march"); break;
+        case 4: System.out.println("april"); break;
+        ...
+        default: System.out.println("enter a valid month value")
