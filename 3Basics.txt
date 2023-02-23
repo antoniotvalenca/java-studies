@@ -15,6 +15,14 @@ char -> charactere ................. char grade = 'A';''
 
 ________________________________________________________________________________________________________________________
 
+BOOLEAN
+
+-> Ocupam apenas uma unidade de bit na memória
+-> boolean bool1 = false;
+-> boolean bool2 = true;
+
+________________________________________________________________________________________________________________________
+
 STRINGS
 
 -> Strings em java ocupam bastante espaço, isso porquê eles são alocados na memória no formato de objeto
@@ -84,6 +92,15 @@ TYPE CASTING DE VARIÁVEIS
             int people = 3;
 
             double slicePerPeople = ( (double)cakeSlices / people )
+________________________________________________________________________________________________________________________
+
+RESUMO
+
+int apples = 6;
+double weight = 10.5;
+String name = "antonio";
+char initialLetter = 'A';
+boolean isOn = true;
 ________________________________________________________________________________________________________________________
 
 OPERADORES
