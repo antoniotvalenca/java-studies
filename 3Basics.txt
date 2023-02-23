@@ -15,6 +15,39 @@ char -> charactere ................. char grade = 'A';''
 
 ________________________________________________________________________________________________________________________
 
+COMPARISONS
+
+>    ......   maior que 
+<    ......   menor que
+
+>=   ......   maior ou igual
+<=   ......   menor ou igual
+
+==   ......   igual
+!=   ......   diferente
+
+
+equals  ...  igual (para string)
+! equals ..  diferente (para string) 
+        -> ex:
+              String nome1 = "antonio";
+              String nome2 = "antonio"; 
+              
+              System.out.println(nome1.equals.nome2); // true
+              System.out.println(!nome.equals.nome2); // false 
+
+LOGICAL OPERATORS
+
+|| -> ou
+&& -> e (and)
+
+
+ex:
+        if (6 > 4 && 4 < 8) {
+            System.out.println("as duas afirmaçoes sao verdadeiras");
+        }
+________________________________________________________________________________________________________________________
+
 BOOLEAN
 
 -> Ocupam apenas uma unidade de bit na memória
